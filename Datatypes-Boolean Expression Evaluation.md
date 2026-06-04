@@ -14,16 +14,30 @@ To write a Python program that evaluates and prints the results of boolean and a
 7. Print the value of `c` with the label "c:".
 8. Print the value of `d` with the label "d:".
 
-## 🧾 Program
-```py
-a=int(input())
-if a%2==0:
-    print("EVEN")
-else:
-    print("ODD")
-```
-## Output
-<img width="663" height="364" alt="image" src="https://github.com/user-attachments/assets/8ec1cf31-0eac-46f8-8910-636dac83aec1" />
+## 💻 Program
+a=9==True
 
+b=False==False
+
+c=True+True
+
+d=False+9
+
+print("a is:",a)
+
+print("b is:",b)
+
+print("c is:",c)
+
+print("d is:",d)
+
+## Output
+a is:False
+
+b is:True
+
+c is:2
+
+d is:9
 ## Result
-Thus,the Python program to check whether the given number is even or odd using if...else statements is created successfully.
+Thus,the python program to evaluate and print the results of boolean and arithmetic expressions involving True and False was successfully executed and the results were verified.
